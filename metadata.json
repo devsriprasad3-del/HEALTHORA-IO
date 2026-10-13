@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix HEALTHORA - AI Health Copilot",
+  "description": "AI-Powered Personal Health Records Copilot: multimodal medical document extraction, bilingual clinical explanations, lab trends, and chronological timeline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

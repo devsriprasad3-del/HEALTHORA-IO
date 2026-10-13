@@ -1,0 +1,1401 @@
+{
+  "activeProfileKey": "rajesh",
+  "demoProfiles": {
+    "rajesh": {
+      "profile": {
+        "id": "demo-rajesh",
+        "name": "Rajesh Sharma",
+        "email": "rajesh.sharma@example.com",
+        "dob": "1978-04-14",
+        "gender": "Male",
+        "bloodGroup": "B+",
+        "preferredLanguage": "en",
+        "abhaNumber": "91-4821-9032-4112",
+        "allergies": [
+          "Penicillin",
+          "Sulfa drugs"
+        ],
+        "chronicConditions": [
+          "Type 2 Diabetes Mellitus",
+          "Dyslipidemia",
+          "Essential Hypertension"
+        ],
+        "avatarUrl": "/src/assets/images/avatar_patient_demo_1791789273596.jpg"
+      },
+      "settings": {
+        "waterTargetMl": 2500,
+        "sleepTargetHours": 8,
+        "activityTargetMinutes": 45,
+        "timeZone": "Asia/Kolkata",
+        "aiPreferredLanguage": "en",
+        "aiResponseDetail": "balanced",
+        "enableBrowserNotifications": false
+      },
+      "documents": [
+        {
+          "id": "doc-2",
+          "userId": "demo-rajesh",
+          "title": "Cardiometabolic Prescription & Regimen",
+          "fileName": "Apollo_Clinic_Prescription_Jan2026.pdf",
+          "fileSize": 890000,
+          "mimeType": "application/pdf",
+          "documentType": "Prescription",
+          "documentDate": "2026-01-20",
+          "facility": "Apollo Specialty Clinic",
+          "doctor": "Dr. Neha Verma, MD (Endocrinology)",
+          "uploadDate": "2026-01-20T14:15:00Z",
+          "status": "verified",
+          "extractedData": {
+            "documentId": "doc-2",
+            "patientName": "Rajesh Sharma",
+            "documentType": "Outpatient Clinical Prescription",
+            "documentDate": "2026-01-20",
+            "facility": "Apollo Clinic",
+            "doctorName": "Dr. Neha Verma",
+            "diagnoses": [
+              "Type 2 Diabetes Mellitus",
+              "Dyslipidemia",
+              "Hypertension"
+            ],
+            "plainSummaryEn": "Prescription renewing Metformin 500mg twice daily with meals, Atorvastatin 20mg at bedtime, and Telmisartan 40mg each morning.",
+            "plainSummaryHi": "भोजन के साथ दिन में दो बार मेटफॉर्मिन 500 मिलीग्राम, रात को एटोरवास्टेटिन 20 मिलीग्राम और सुबह टेलमिसर्टन 40 मिलीग्राम की खुराक जारी रखने का नुस्खा।",
+            "keyObservations": [
+              "Continued Metformin 500mg BID for glycemic regulation.",
+              "Lipid therapy continued with Atorvastatin 20mg bedtime.",
+              "Blood pressure support with Telmisartan 40mg OD."
+            ],
+            "verificationNeeded": [
+              "Confirm pharmacy refilled the exact brand and strength."
+            ],
+            "questionsForClinician": [
+              "Can we review kidney markers again in 6 months?"
+            ],
+            "uncertaintyDisclaimers": [
+              "Always verify medication instructions with your pharmacist."
+            ],
+            "labsCount": 0,
+            "medsCount": 3
+          }
+        },
+        {
+          "id": "doc-1",
+          "userId": "demo-rajesh",
+          "title": "Comprehensive Metabolic & Lipid Profile",
+          "fileName": "Apex_Pathology_Lipid_Metabolic_Jan2026.pdf",
+          "fileSize": 1420000,
+          "mimeType": "application/pdf",
+          "documentType": "Lab Report",
+          "documentDate": "2026-01-18",
+          "facility": "Apex Diagnostic & Specialty Pathology",
+          "doctor": "Dr. Arvind Kulkarni, MD (Path)",
+          "uploadDate": "2026-01-18T10:30:00Z",
+          "status": "verified",
+          "previewUrl": "/src/assets/images/doc_lab_report_sample_1791789285403.jpg",
+          "extractedData": {
+            "documentId": "doc-1",
+            "patientName": "Rajesh Sharma",
+            "documentType": "Pathology Diagnostic Panel",
+            "documentDate": "2026-01-18",
+            "facility": "Apex Diagnostics",
+            "doctorName": "Dr. Arvind Kulkarni",
+            "diagnoses": [
+              "Type 2 Diabetes Mellitus",
+              "Dyslipidemia"
+            ],
+            "plainSummaryEn": "Your blood sugar levels (HbA1c at 7.4% and Fasting Blood Glucose at 138 mg/dL) remain above standard non-diabetic ranges, reflecting steady chronic hyperglycemia. Your total cholesterol is slightly high at 218 mg/dL, though kidney creatinine is stable.",
+            "plainSummaryHi": "आपके रक्त शर्करा (HbA1c 7.4% और फास्टिंग ग्लूकोज 138 mg/dL) सामान्य सीमा से अधिक हैं, जो लगातार मधुमेह का संकेत देते हैं। कोलेस्ट्रॉल 218 mg/dL पर थोड़ा बढ़ा हुआ है, लेकिन किडनी की कार्यक्षमता (क्रिएटिनिन) सामान्य है।",
+            "keyObservations": [
+              "Glycated Hemoglobin (HbA1c) 7.4% reflects average blood glucose around 165 mg/dL over past 90 days.",
+              "Fasting blood sugar 138 mg/dL is improved compared to October (148 mg/dL).",
+              "Total Cholesterol 218 mg/dL shows a modest decrease from May (242 mg/dL).",
+              "Serum Creatinine 0.95 mg/dL is completely normal, indicating intact renal clearance."
+            ],
+            "verificationNeeded": [
+              "Confirm exact fasting interval (was it 10-12 hours before specimen collection)?",
+              "Verify whether evening metformin dose was taken before morning blood draw."
+            ],
+            "questionsForClinician": [
+              "Is the gradual HbA1c reduction from 7.8% to 7.4% on track for our 6-month goal?",
+              "Should we adjust the dosage of Metformin or Atorvastatin based on this lipid panel?",
+              "What lifestyle adjustments can accelerate fasting glucose normalization?"
+            ],
+            "uncertaintyDisclaimers": [
+              "This structured summary is an AI-assisted translation of your laboratory report. It does not constitute medical diagnosis or prescribe clinical treatment."
+            ],
+            "labsCount": 5,
+            "medsCount": 0
+          }
+        }
+      ],
+      "labs": [
+        {
+          "id": "lab-hba1c-1",
+          "documentId": "doc-1",
+          "testName": "Hemoglobin A1c (HbA1c)",
+          "category": "Metabolic / Glucose",
+          "valueNumeric": 7.4,
+          "valueText": "7.4",
+          "unit": "%",
+          "referenceLow": 4,
+          "referenceHigh": 5.6,
+          "referenceRangeText": "4.0 - 5.6 % (Non-diabetic)",
+          "sourceInterpretation": "Above Reference Range",
+          "observedDate": "2026-01-18",
+          "verified": true,
+          "clinicalExplanationEn": "Indicates 3-month average glucose control. 7.4% is in the established diabetes management range.",
+          "clinicalExplanationHi": "पिछले 3 महीनों का औसत ब्लड शुगर दर्शाता है। 7.4% प्रबंधित मधुमेह की श्रेणी में आता है।",
+          "confidenceScore": 0.99
+        },
+        {
+          "id": "lab-fbs-1",
+          "documentId": "doc-1",
+          "testName": "Fasting Blood Sugar (FBS)",
+          "category": "Metabolic / Glucose",
+          "valueNumeric": 138,
+          "valueText": "138",
+          "unit": "mg/dL",
+          "referenceLow": 70,
+          "referenceHigh": 99,
+          "referenceRangeText": "70 - 99 mg/dL",
+          "sourceInterpretation": "Above Reference Range",
+          "observedDate": "2026-01-18",
+          "verified": true,
+          "clinicalExplanationEn": "Morning blood sugar after 10-12 hours fasting. Normal is under 100 mg/dL.",
+          "clinicalExplanationHi": "सुबह खाली पेट का ब्लड शुगर। सामान्य सीमा 100 mg/dL से कम होती है।",
+          "confidenceScore": 0.98
+        },
+        {
+          "id": "lab-chol-1",
+          "documentId": "doc-1",
+          "testName": "Total Cholesterol",
+          "category": "Lipid Panel",
+          "valueNumeric": 218,
+          "valueText": "218",
+          "unit": "mg/dL",
+          "referenceLow": 125,
+          "referenceHigh": 200,
+          "referenceRangeText": "< 200 mg/dL Desirable",
+          "sourceInterpretation": "Above Reference Range",
+          "observedDate": "2026-01-18",
+          "verified": true,
+          "clinicalExplanationEn": "Overall circulating cholesterol in bloodstream. Target is below 200 mg/dL.",
+          "clinicalExplanationHi": "रक्त में कुल कोलेस्ट्रॉल। वांछनीय स्तर 200 mg/dL से नीचे होता है।",
+          "confidenceScore": 0.97
+        },
+        {
+          "id": "lab-creat-1",
+          "documentId": "doc-1",
+          "testName": "Serum Creatinine",
+          "category": "Renal / Kidney",
+          "valueNumeric": 0.95,
+          "valueText": "0.95",
+          "unit": "mg/dL",
+          "referenceLow": 0.7,
+          "referenceHigh": 1.3,
+          "referenceRangeText": "0.70 - 1.30 mg/dL",
+          "sourceInterpretation": "Within Normal Range",
+          "observedDate": "2026-01-18",
+          "verified": true,
+          "clinicalExplanationEn": "Waste product filtered by kidneys. 0.95 mg/dL confirms healthy kidney filtration.",
+          "clinicalExplanationHi": "गुर्दे द्वारा फिल्टर किया जाने वाला अपशिष्ट उत्पाद। 0.95 mg/dL स्वस्थ कार्यप्रणाली दर्शाता है।",
+          "confidenceScore": 0.99
+        }
+      ],
+      "medications": [
+        {
+          "id": "med-1",
+          "userId": "demo-rajesh",
+          "documentId": "doc-2",
+          "name": "Metformin Hydrochloride",
+          "genericName": "Metformin",
+          "strength": "500 mg",
+          "dosage": "1 tablet with meals",
+          "route": "Oral",
+          "frequency": "Twice daily (Breakfast & Dinner)",
+          "instructions": "Take immediately with or after food to prevent gastrointestinal upset.",
+          "instructionsHi": "पेट की परेशानी से बचने के लिए भोजन के साथ या तुरंत बाद लें।",
+          "startDate": "2025-05-10",
+          "status": "Active",
+          "userConfirmed": true,
+          "prescribingDoctor": "Dr. Neha Verma",
+          "reminders": [
+            {
+              "id": "rem-med-1",
+              "time": "08:30",
+              "days": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri",
+                "Sat",
+                "Sun"
+              ],
+              "enabled": true
+            },
+            {
+              "id": "rem-med-2",
+              "time": "20:30",
+              "days": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri",
+                "Sat",
+                "Sun"
+              ],
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "med-2",
+          "userId": "demo-rajesh",
+          "documentId": "doc-2",
+          "name": "Atorvastatin",
+          "genericName": "Atorvastatin Calcium",
+          "strength": "20 mg",
+          "dosage": "1 tablet at bedtime",
+          "route": "Oral",
+          "frequency": "Once daily at night",
+          "instructions": "Take once daily in the evening or bedtime with water.",
+          "instructionsHi": "रोजाना रात को पानी के साथ लें।",
+          "startDate": "2025-05-10",
+          "status": "Active",
+          "userConfirmed": true,
+          "prescribingDoctor": "Dr. Neha Verma",
+          "reminders": [
+            {
+              "id": "rem-med-3",
+              "time": "22:00",
+              "days": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri",
+                "Sat",
+                "Sun"
+              ],
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "med-3",
+          "userId": "demo-rajesh",
+          "documentId": "doc-2",
+          "name": "Telmisartan",
+          "genericName": "Telmisartan",
+          "strength": "40 mg",
+          "dosage": "1 tablet in the morning",
+          "route": "Oral",
+          "frequency": "Once daily in the morning",
+          "instructions": "Take in the morning with or without food for blood pressure maintenance.",
+          "instructionsHi": "रक्तचाप नियंत्रण के लिए सुबह लें।",
+          "startDate": "2025-08-15",
+          "status": "Active",
+          "userConfirmed": true,
+          "prescribingDoctor": "Dr. Neha Verma",
+          "reminders": [
+            {
+              "id": "rem-med-4",
+              "time": "08:00",
+              "days": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri",
+                "Sat",
+                "Sun"
+              ],
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "time-1",
+          "userId": "demo-rajesh",
+          "date": "2026-01-20",
+          "type": "medication",
+          "title": "Cardiometabolic Prescription Confirmed",
+          "summary": "Prescription from Apollo Clinic for Metformin, Atorvastatin, and Telmisartan.",
+          "summaryHi": "अपोलो क्लिनिक से मेटफॉर्मिन, एटोरवास्टेटिन और टेलमिसर्टन का नुस्खा सत्यापित किया गया।",
+          "documentId": "doc-2"
+        },
+        {
+          "id": "time-2",
+          "userId": "demo-rajesh",
+          "date": "2026-01-18",
+          "type": "lab",
+          "title": "Metabolic & Lipid Panel Analyzed",
+          "summary": "HbA1c measured at 7.4% (down from 7.5% in Oct 2025). Fasting blood sugar at 138 mg/dL.",
+          "summaryHi": "HbA1c 7.4% मापा गया (अक्टूबर 2025 में 7.5% से कम)। फास्टिंग ग्लूकोज 138 mg/dL।",
+          "documentId": "doc-1"
+        }
+      ],
+      "wellness": [
+        {
+          "id": "wel-1",
+          "userId": "demo-rajesh",
+          "date": "2026-10-11",
+          "sleepHours": 7.5,
+          "steps": 6420,
+          "waterGlasses": 8.5,
+          "restingHeartRate": 72,
+          "bloodPressureSystolic": 126,
+          "bloodPressureDiastolic": 82,
+          "notes": "Morning 35-min brisk walk. Felt energetic throughout workday."
+        },
+        {
+          "id": "wel-1791823787102",
+          "userId": "demo-rajesh",
+          "date": "2026-10-12",
+          "sleepHours": 7.25,
+          "steps": 0,
+          "waterGlasses": 0,
+          "notes": "Woke up refreshed ahead of morning routine."
+        }
+      ],
+      "sleepEntries": [
+        {
+          "id": "sleep-1",
+          "userId": "demo-rajesh",
+          "date": "2026-10-06",
+          "bedtime": "23:15",
+          "wakeTime": "06:45",
+          "durationHours": 7.5,
+          "quality": "good",
+          "notes": "Fell asleep quickly after evening reading.",
+          "createdAt": "2026-10-07T07:00:00Z"
+        },
+        {
+          "id": "sleep-2",
+          "userId": "demo-rajesh",
+          "date": "2026-10-07",
+          "bedtime": "23:30",
+          "wakeTime": "06:30",
+          "durationHours": 7,
+          "quality": "good",
+          "notes": "Woke up once around 3 AM for water, fell back asleep.",
+          "createdAt": "2026-10-08T07:00:00Z"
+        },
+        {
+          "id": "sleep-3",
+          "userId": "demo-rajesh",
+          "date": "2026-10-08",
+          "bedtime": "00:00",
+          "wakeTime": "06:30",
+          "durationHours": 6.5,
+          "quality": "fair",
+          "notes": "Late work call, slight morning fatigue.",
+          "createdAt": "2026-10-09T07:00:00Z"
+        },
+        {
+          "id": "sleep-4",
+          "userId": "demo-rajesh",
+          "date": "2026-10-09",
+          "bedtime": "23:00",
+          "wakeTime": "07:00",
+          "durationHours": 8,
+          "quality": "excellent",
+          "notes": "Deep restorative sleep.",
+          "createdAt": "2026-10-10T07:30:00Z"
+        },
+        {
+          "id": "sleep-5",
+          "userId": "demo-rajesh",
+          "date": "2026-10-10",
+          "bedtime": "23:30",
+          "wakeTime": "07:15",
+          "durationHours": 7.75,
+          "quality": "good",
+          "notes": "Weekend rest.",
+          "createdAt": "2026-10-11T07:30:00Z"
+        },
+        {
+          "id": "sleep-6",
+          "userId": "demo-rajesh",
+          "date": "2026-10-11",
+          "bedtime": "23:00",
+          "wakeTime": "06:30",
+          "durationHours": 7.5,
+          "quality": "good",
+          "notes": "Slept smoothly with room temperature set to 23C.",
+          "createdAt": "2026-10-12T06:45:00Z"
+        },
+        {
+          "id": "sleep-1791823787099",
+          "userId": "demo-rajesh",
+          "date": "2026-10-12",
+          "bedtime": "23:15",
+          "wakeTime": "06:30",
+          "durationHours": 7.25,
+          "quality": "good",
+          "notes": "Woke up refreshed ahead of morning routine.",
+          "createdAt": "2026-10-12T16:49:47.099Z"
+        }
+      ],
+      "waterEntries": [
+        {
+          "id": "water-1",
+          "userId": "demo-rajesh",
+          "date": "2026-10-08",
+          "amountMl": 2200,
+          "unit": "ml",
+          "targetMl": 2500,
+          "notes": "Hydrated steadily throughout clinic workday.",
+          "createdAt": "2026-10-08T21:00:00Z"
+        },
+        {
+          "id": "water-2",
+          "userId": "demo-rajesh",
+          "date": "2026-10-09",
+          "amountMl": 2600,
+          "unit": "ml",
+          "targetMl": 2500,
+          "notes": "Reached 104% of daily goal.",
+          "createdAt": "2026-10-09T21:30:00Z"
+        },
+        {
+          "id": "water-3",
+          "userId": "demo-rajesh",
+          "date": "2026-10-10",
+          "amountMl": 2400,
+          "unit": "ml",
+          "targetMl": 2500,
+          "notes": "Post-workout hydration.",
+          "createdAt": "2026-10-10T20:30:00Z"
+        },
+        {
+          "id": "water-4",
+          "userId": "demo-rajesh",
+          "date": "2026-10-11",
+          "amountMl": 2500,
+          "unit": "ml",
+          "targetMl": 2500,
+          "notes": "Target achieved precisely.",
+          "createdAt": "2026-10-11T21:00:00Z"
+        },
+        {
+          "id": "water-5",
+          "userId": "demo-rajesh",
+          "date": "2026-10-12",
+          "amountMl": 1750,
+          "unit": "ml",
+          "targetMl": 2500,
+          "notes": "Morning 500ml + midday 750ml + afternoon 500ml logged so far.",
+          "createdAt": "2026-10-12T15:30:00Z"
+        }
+      ],
+      "mealEntries": [
+        {
+          "id": "meal-1",
+          "userId": "demo-rajesh",
+          "date": "2026-10-11",
+          "mealType": "breakfast",
+          "mealName": "Vegetable Oats Upma & Boiled Egg",
+          "foods": "Oats with mixed carrots, beans, peas (1 bowl), 1 hard-boiled egg, 1 cup unsweetened black tea.",
+          "calories": 320,
+          "proteinG": 14,
+          "carbsG": 42,
+          "fatG": 9,
+          "isAiEstimated": false,
+          "notes": "Took morning Metformin 500mg immediately after meal.",
+          "createdAt": "2026-10-11T09:00:00Z"
+        },
+        {
+          "id": "meal-2",
+          "userId": "demo-rajesh",
+          "date": "2026-10-11",
+          "mealType": "lunch",
+          "mealName": "Roti, Moong Dal & Palak Paneer",
+          "foods": "2 whole wheat multigrain phulkas, 1 cup yellow moong dal, 1 cup palak paneer, cucumber salad.",
+          "calories": 520,
+          "proteinG": 22,
+          "carbsG": 64,
+          "fatG": 16,
+          "isAiEstimated": false,
+          "notes": "High fiber salad eaten before carbs.",
+          "createdAt": "2026-10-11T13:30:00Z"
+        },
+        {
+          "id": "meal-3",
+          "userId": "demo-rajesh",
+          "date": "2026-10-11",
+          "mealType": "dinner",
+          "mealName": "Grilled Fish & Steamed Greens",
+          "foods": "150g grilled pomfret with lemon herb dressing, steamed broccoli and zucchini.",
+          "calories": 380,
+          "proteinG": 34,
+          "carbsG": 12,
+          "fatG": 14,
+          "isAiEstimated": true,
+          "notes": "AI nutrition estimate based on standard food database portion sizes.",
+          "createdAt": "2026-10-11T20:30:00Z"
+        },
+        {
+          "id": "meal-4",
+          "userId": "demo-rajesh",
+          "date": "2026-10-12",
+          "mealType": "breakfast",
+          "mealName": "Besan Chilla with Mint Chutney",
+          "foods": "2 savory chickpea flour crepes filled with grated paneer and spinach, unsweetened chai.",
+          "calories": 340,
+          "proteinG": 16,
+          "carbsG": 38,
+          "fatG": 12,
+          "isAiEstimated": false,
+          "notes": "Fasting blood sugar 128 mg/dL recorded before breakfast.",
+          "createdAt": "2026-10-12T09:15:00Z"
+        },
+        {
+          "id": "meal-5",
+          "userId": "demo-rajesh",
+          "date": "2026-10-12",
+          "mealType": "lunch",
+          "mealName": "Brown Rice, Rajma & Kachumber",
+          "foods": "1 cup steamed brown rice, 1.5 cups rajma (kidney bean curry), chopped tomato-cucumber salad.",
+          "calories": 490,
+          "proteinG": 19,
+          "carbsG": 78,
+          "fatG": 8,
+          "isAiEstimated": true,
+          "notes": "AI estimated macro breakdown.",
+          "createdAt": "2026-10-12T13:45:00Z"
+        }
+      ],
+      "activityEntries": [
+        {
+          "id": "act-1",
+          "userId": "demo-rajesh",
+          "date": "2026-10-09",
+          "activityType": "Brisk Walking",
+          "durationMinutes": 40,
+          "steps": 4200,
+          "distanceKm": 3.1,
+          "intensity": "medium",
+          "caloriesBurned": 195,
+          "notes": "Lakeside park walk before work.",
+          "createdAt": "2026-10-09T08:00:00Z"
+        },
+        {
+          "id": "act-2",
+          "userId": "demo-rajesh",
+          "date": "2026-10-10",
+          "activityType": "Stationary Cycling",
+          "durationMinutes": 30,
+          "steps": 1200,
+          "distanceKm": 9.4,
+          "intensity": "medium",
+          "caloriesBurned": 220,
+          "notes": "Indoor cardio session.",
+          "createdAt": "2026-10-10T18:00:00Z"
+        },
+        {
+          "id": "act-3",
+          "userId": "demo-rajesh",
+          "date": "2026-10-11",
+          "activityType": "Brisk Walking & Light Stretches",
+          "durationMinutes": 45,
+          "steps": 5100,
+          "distanceKm": 3.8,
+          "intensity": "medium",
+          "caloriesBurned": 240,
+          "notes": "Paced pace, heart rate maintained around 110-118 bpm.",
+          "createdAt": "2026-10-11T08:00:00Z"
+        },
+        {
+          "id": "act-4",
+          "userId": "demo-rajesh",
+          "date": "2026-10-12",
+          "activityType": "Morning Power Walk",
+          "durationMinutes": 35,
+          "steps": 3950,
+          "distanceKm": 2.9,
+          "intensity": "medium",
+          "caloriesBurned": 180,
+          "notes": "Completed before morning tea.",
+          "createdAt": "2026-10-12T07:45:00Z"
+        }
+      ],
+      "moodEntries": [
+        {
+          "id": "mood-1",
+          "userId": "demo-rajesh",
+          "date": "2026-10-09",
+          "mood": "good",
+          "notes": "Calm and steady. Fasting glucose numbers looking better this week.",
+          "createdAt": "2026-10-09T21:00:00Z"
+        },
+        {
+          "id": "mood-2",
+          "userId": "demo-rajesh",
+          "date": "2026-10-10",
+          "mood": "great",
+          "notes": "Enjoyed long weekend morning with family. Energy levels solid.",
+          "createdAt": "2026-10-10T21:00:00Z"
+        },
+        {
+          "id": "mood-3",
+          "userId": "demo-rajesh",
+          "date": "2026-10-11",
+          "mood": "good",
+          "notes": "Satisfied with sticking to diet plan without craving sweets.",
+          "createdAt": "2026-10-11T21:30:00Z"
+        },
+        {
+          "id": "mood-4",
+          "userId": "demo-rajesh",
+          "date": "2026-10-12",
+          "mood": "good",
+          "notes": "Focused and alert. Ready for mid-week clinic follow-up preparation.",
+          "createdAt": "2026-10-12T10:00:00Z"
+        }
+      ],
+      "journalEntries": [
+        {
+          "id": "jour-1",
+          "userId": "demo-rajesh",
+          "date": "2026-10-10",
+          "title": "Occasional Late Afternoon Dizziness After Fast Walking",
+          "content": "Noticed mild lightheadedness around 4:30 PM after doing a brisk 40-minute walk before lunch. Had only half a cup of buttermilk. Checked blood sugar immediately with glucometer: 104 mg/dL. Drank water and rested 10 minutes, feeling resolved quickly.",
+          "tags": [
+            "Dizziness",
+            "Blood Sugar",
+            "Walking",
+            "Exercise"
+          ],
+          "clinicianQuestions": [
+            "Was the 4:30 PM dizziness related to mild hypoglycemia or mild dehydration?",
+            "Should I shift my brisk walking closer to breakfast or have a pre-walk snack?"
+          ],
+          "attachedDocumentId": "doc-1",
+          "attachedDocumentTitle": "Comprehensive Metabolic & Lipid Profile",
+          "aiSummaryEn": "User recorded transient afternoon lightheadedness following fasted brisk walking. Glucometer reading was 104 mg/dL (within normal glucose range). Symptoms rapidly resolved with rest and hydration.",
+          "aiSummaryHi": "उपयोगकर्ता ने खाली पेट तेज चलने के बाद दोपहर में हल्के चक्कर आने की बात दर्ज की। ग्लूकोमीटर की रीडिंग 104 mg/dL थी। आराम और पानी पीने के बाद लक्षण तुरंत ठीक हो गए।",
+          "appointmentPrepList": [
+            "Report 104 mg/dL reading during dizziness episode.",
+            "Discuss optimal timing between Metformin intake, meals, and physical exercise."
+          ],
+          "createdAt": "2026-10-10T17:15:00Z",
+          "updatedAt": "2026-10-10T17:20:00Z"
+        },
+        {
+          "id": "jour-2",
+          "userId": "demo-rajesh",
+          "date": "2026-10-12",
+          "title": "Questions Prepared for Dr. Verma's Quarterly Review",
+          "content": "Reviewing recent 3-month labs: HbA1c is down to 7.4% from 7.8% last year, and total cholesterol is 218 mg/dL. Fasting blood sugar has averaged around 132-138 mg/dL. Want to confirm if my current dosage of Metformin 500mg BID and Atorvastatin 20mg should stay unchanged.",
+          "tags": [
+            "Endocrinology",
+            "Quarterly Review",
+            "Metformin",
+            "HbA1c Target"
+          ],
+          "clinicianQuestions": [
+            "Is an HbA1c of 7.4% acceptable for my current age and cardiac risk profile, or should we aim for under 7.0%?",
+            "Can we repeat the lipid panel in 3 months to monitor response to Atorvastatin?",
+            "Should I take any specific vitamin B12 supplement given long-term Metformin usage?"
+          ],
+          "attachedDocumentId": "doc-2",
+          "attachedDocumentTitle": "Cardiometabolic Prescription & Regimen",
+          "aiSummaryEn": "Patient is organizing findings for Dr. Verma: noted improvement in 3-month HbA1c to 7.4% and prepared 3 focused questions on glycemic targets, lipid monitoring, and vitamin B12 status on Metformin.",
+          "aiSummaryHi": "मरीज डॉ. वर्मा के साथ परामर्श के लिए तैयार कर रहे हैं: HbA1c में 7.4% तक सुधार नोट किया गया है और दवाओं की समीक्षा व विटामिन B12 पर 3 प्रश्न तैयार किए गए हैं।",
+          "appointmentPrepList": [
+            "Show 30-day home glucometer log (average FBS 134 mg/dL).",
+            "Ask about Vitamin B12 monitoring with long-term Metformin.",
+            "Request lipid retest schedule."
+          ],
+          "createdAt": "2026-10-12T08:30:00Z",
+          "updatedAt": "2026-10-12T08:30:00Z"
+        }
+      ],
+      "conversations": [
+        {
+          "id": "conv-1791823656118",
+          "userId": "demo-rajesh",
+          "title": "Summarize my water intake and sleep...",
+          "pageContext": "tracking",
+          "createdAt": "2026-10-12T16:47:36.118Z",
+          "updatedAt": "2026-10-12T16:52:48.298Z"
+        },
+        {
+          "id": "conv-1",
+          "userId": "demo-rajesh",
+          "title": "Weekly Wellness & Lab Correlation",
+          "pageContext": "overview",
+          "createdAt": "2026-10-11T11:00:00Z",
+          "updatedAt": "2026-10-11T11:05:00Z"
+        }
+      ],
+      "messages": [
+        {
+          "id": "msg-1",
+          "conversationId": "conv-1",
+          "role": "user",
+          "content": "Summarize my sleep and activity records over the past week and how they relate to my diabetes goals.",
+          "timestamp": "2026-10-11T11:00:00Z",
+          "pageContext": "overview"
+        },
+        {
+          "id": "msg-2",
+          "conversationId": "conv-1",
+          "role": "model",
+          "content": "Based on your authenticated records:\n\n1. **Sleep Consistency:** You logged sleep on 7 consecutive days, averaging **7.36 hours per night** (ranging from 6.5 to 8.0 hours). Quality was rated Good on 5 nights and Excellent on 1 night.\n2. **Physical Activity:** You completed 4 recorded workouts totaling **150 active minutes** of brisk walking and cycling, exceeding the standard weekly 150-minute moderate aerobic threshold.\n3. **Clinical Context:** Regular physical activity and consistent 7+ hours of sleep directly support insulin sensitivity. Your latest laboratory HbA1c was recorded at **7.4%** (down from 7.8%), reflecting progressive management.\n\n*Note: This information summarizes your recorded daily tracking and laboratory values for educational clarity. Continue following Dr. Verma's individualized regimen.*",
+          "timestamp": "2026-10-11T11:00:30Z",
+          "pageContext": "overview",
+          "sources": [
+            {
+              "type": "tracking",
+              "label": "7 Sleep Entries (Oct 6-12)",
+              "detail": "Avg 7.36 hrs"
+            },
+            {
+              "type": "tracking",
+              "label": "4 Activity Entries",
+              "detail": "150 active mins"
+            },
+            {
+              "type": "lab",
+              "label": "HbA1c Lab Result (Jan 2026)",
+              "detail": "7.4%"
+            }
+          ]
+        },
+        {
+          "id": "msg-1791823656119-u",
+          "conversationId": "conv-1791823656118",
+          "role": "user",
+          "content": "Summarize my water intake and sleep records this week.",
+          "timestamp": "2026-10-12T16:47:36.119Z",
+          "pageContext": "tracking"
+        },
+        {
+          "id": "msg-1791823667143-m",
+          "conversationId": "conv-1791823656118",
+          "role": "model",
+          "content": "Here is a summary of your self-tracked sleep and water intake records for the week of **October 6 – October 12, 2026**:\n\n---\n\n### 🛏️ Sleep Summary *(User-Logged Wellness Data)*\nOver the past 7 days, your sleep pattern has been consistent and healthy:\n\n* **Average Duration:** Approximately **7 hours and 21 minutes** (7.36 hours) per night.\n* **Duration Range:** Between **6.5 hours** (Oct 8) and **8.0 hours** (Oct 9).\n* **Schedule Consistency:** \n  * **Bedtime:** Generally between **11:00 PM and 11:30 PM** (with one later bedtime at midnight on Oct 8).\n  * **Wake Time:** Steady between **6:30 AM and 7:15 AM**.\n* **Reported Quality:** Consistently rated as **\"Good\"** to **\"Excellent\"**, with only one night (Oct 8) logged as \"Fair.\"\n\n---\n\n### 💧 Water Intake Summary *(User-Logged Wellness Data)*\nYour daily hydration goal is set at **2,500 mL**:\n\n* **Logged Days:** 5 days recorded (October 8–12). *(Note: No water intake was logged for October 6 or 7).*\n* **Average Intake (Recorded Days):** **2,290 mL / day**.\n* **Goal Achievement:**\n  * **Met or Exceeded Target (2,500 mL+):** \n    * Oct 9: **2,600 mL**\n    * Oct 11: **2,500 mL**\n  * **Close to Target:** \n    * Oct 10: **2,400 mL**\n    * Oct 8: **2,200 mL**\n  * **Below Target:** \n    * Oct 12: **1,750 mL** (750 mL short of goal)\n\n---\n\n### Key Takeaway\nYour sleep routine is well-maintained and regular. Hydration was close to or above your 2,500 mL goal for most of the tracked days, with a dip on October 12. \n\n*Reminder: This overview reflects self-entered tracking logs. If you have specific hydration or sleep goals related to an ongoing medical condition, feel free to review these trends with your healthcare provider during your next consultation.*",
+          "timestamp": "2026-10-12T16:47:47.143Z",
+          "pageContext": "tracking",
+          "sources": [
+            {
+              "type": "tracking",
+              "label": "Recent Daily Tracking Log",
+              "detail": "Sleep, Water, Meals, Activity & Mood"
+            }
+          ]
+        },
+        {
+          "id": "msg-1791823953516-u",
+          "conversationId": "conv-1791823656118",
+          "role": "user",
+          "content": "i have fever from last week, suggest me some medical care , home care and food routine",
+          "timestamp": "2026-10-12T16:52:33.516Z",
+          "pageContext": "records"
+        },
+        {
+          "id": "msg-1791823968298-m",
+          "conversationId": "conv-1791823656118",
+          "role": "model",
+          "content": "Hello Rajesh,\n\nI am sorry to hear that you have been dealing with a fever for over a week. Because a fever lasting more than 5–7 days (a prolonged fever) can indicate an underlying infection that requires specific treatment, it is very important that you **see a doctor promptly** for an in-person evaluation. \n\nFurthermore, according to your verified health records, you are managing elevated blood sugars (HbA1c 7.4%, Fasting Glucose 138 mg/dL) and taking medications including Metformin and Telmisartan. Acute illnesses and infections can cause sudden fluctuations in blood sugar, making clinical supervision especially important.\n\n---\n\n### 1. Medical Care & Next Steps\n* **Consult a Healthcare Provider Promptly:** A doctor should perform a physical examination and may recommend basic tests (such as a Complete Blood Count or urine analysis) to determine whether the fever is bacterial, viral, or due to another source.\n* **Review Medications with Your Doctor:** Continue your regular medications (**Metformin, Telmisartan, Atorvastatin**) as prescribed unless your physician specifically directs otherwise. Do not start new antibiotics or prescription medicines without a doctor's order.\n* **When to Seek Immediate / Emergency Medical Attention:**\n  Proceed to an urgent care center or call emergency services (108 / 112) immediately if you experience:\n  * Difficulty breathing or shortness of breath\n  * Severe chest pain, confusion, or extreme dizziness\n  * Persistent vomiting making it impossible to keep fluids down\n  * High fever (above 103°F / 39.4°C) that does not break\n\n---\n\n### 2. Home Care Routine\n* **Frequent Hydration:** Fevers increase fluid loss. Drink plenty of safe fluids throughout the day (warm water, clear broths, unsweetened coconut water, or herbal teas).\n* **Monitor Blood Glucose Levels:** Illness and physical stress typically cause blood sugar levels to rise. Check your blood glucose more regularly (fasting and post-meal) and keep a log for your doctor.\n* **Log Your Symptoms & Temperature:** Measure and write down your temperature 2–3 times daily, along with any other symptoms (such as cough, chills, or body aches), to share with your physician.\n* **Rest:** Prioritize bed rest to allow your immune system to recover. Wear light, breathable clothing, and use a light blanket. If body temperature is high, lukewarm sponge baths can help provide comfort.\n\n---\n\n### 3. Food & Nutrition Routine\nDuring a fever—particularly with elevated blood sugar levels—the goal is gentle nutrition that is easy to digest without causing glucose spikes:\n\n* **Hydrating Liquids & Soups:**\n  * Warm vegetable or clear chicken broth with a dash of ginger and black pepper.\n  * Thin moong dal soup or warm lemon water (without added sugar).\n* **Easy-to-Digest Meals:**\n  * Soft *moong dal khichdi* or plain rice-dal porridge.\n  * Steamed vegetables (bottle gourd, zucchini, carrots).\n  * Soft *daliya* (broken wheat) or plain oatmeal prepared with water or light skim milk.\n* **What to Avoid:**\n  * Sugary drinks, packaged fruit juices, and soda (these can sharply spike your blood glucose).\n  * Heavy, deep-fried, excessively oily, or heavily spiced foods that place extra strain on digestion.\n\n---\n\n*Note: This guidance is for educational and supportive purposes. Please schedule an evaluation with a licensed physician as soon as possible to ensure your fever is properly diagnosed and treated.*",
+          "timestamp": "2026-10-12T16:52:48.298Z",
+          "pageContext": "records",
+          "sources": [
+            {
+              "type": "document",
+              "label": "2 Medical Documents",
+              "detail": "Extracted Clinical Summaries"
+            },
+            {
+              "type": "lab",
+              "label": "4 Laboratory Results",
+              "detail": "Diagnostic Reference Ranges"
+            }
+          ]
+        }
+      ],
+      "reminders": [
+        {
+          "id": "rem-1",
+          "userId": "demo-rajesh",
+          "title": "Morning Metformin & Telmisartan",
+          "description": "Take Metformin 500mg with breakfast and Telmisartan 40mg with water.",
+          "category": "medication",
+          "date": "2026-10-12",
+          "time": "08:30",
+          "recurrence": "daily",
+          "enabled": true,
+          "completed": true,
+          "createdAt": "2026-10-01T00:00:00Z"
+        },
+        {
+          "id": "rem-2",
+          "userId": "demo-rajesh",
+          "title": "Afternoon Hydration Check",
+          "description": "Ensure you have logged at least 1500 ml of water by 2 PM.",
+          "category": "water",
+          "date": "2026-10-12",
+          "time": "14:00",
+          "recurrence": "daily",
+          "enabled": true,
+          "completed": true,
+          "createdAt": "2026-10-01T00:00:00Z"
+        },
+        {
+          "id": "rem-3",
+          "userId": "demo-rajesh",
+          "title": "Evening 30-Minute Brisk Walk",
+          "description": "Target 3500+ steps before dinner in the community park.",
+          "category": "activity",
+          "date": "2026-10-12",
+          "time": "18:00",
+          "recurrence": "daily",
+          "enabled": true,
+          "completed": false,
+          "createdAt": "2026-10-01T00:00:00Z"
+        },
+        {
+          "id": "rem-4",
+          "userId": "demo-rajesh",
+          "title": "Evening Metformin & Bedtime Atorvastatin",
+          "description": "Take Metformin 500mg with dinner and Atorvastatin 20mg at 10 PM.",
+          "category": "medication",
+          "date": "2026-10-12",
+          "time": "20:30",
+          "recurrence": "daily",
+          "enabled": true,
+          "completed": false,
+          "createdAt": "2026-10-01T00:00:00Z"
+        },
+        {
+          "id": "rem-5",
+          "userId": "demo-rajesh",
+          "title": "Endocrinologist Appointment — Dr. Neha Verma",
+          "description": "Quarterly diabetes & lipid review at Apollo Specialty Clinic (Room 302). Bring recent lab summary dossier.",
+          "category": "appointment",
+          "date": "2026-10-16",
+          "time": "10:30",
+          "recurrence": "once",
+          "enabled": true,
+          "completed": false,
+          "createdAt": "2026-10-05T00:00:00Z"
+        }
+      ]
+    },
+    "priya": {
+      "profile": {
+        "id": "demo-priya",
+        "name": "Priya Patel",
+        "email": "priya.patel@example.com",
+        "dob": "1991-09-22",
+        "gender": "Female",
+        "bloodGroup": "O+",
+        "preferredLanguage": "en",
+        "abhaNumber": "91-3142-8761-9045",
+        "allergies": [
+          "Aspirin"
+        ],
+        "chronicConditions": [
+          "Mild Thyroiditis (Subclinical)",
+          "Iron Deficiency Anemia (Resolved)"
+        ],
+        "avatarUrl": "/src/assets/images/avatar_patient_demo_1791789273596.jpg"
+      },
+      "settings": {
+        "waterTargetMl": 2200,
+        "sleepTargetHours": 8,
+        "activityTargetMinutes": 40,
+        "timeZone": "Asia/Kolkata",
+        "aiPreferredLanguage": "en",
+        "aiResponseDetail": "balanced",
+        "enableBrowserNotifications": false
+      },
+      "documents": [
+        {
+          "id": "doc-priya-1",
+          "userId": "demo-priya",
+          "title": "Thyroid & Complete Blood Count Panel",
+          "fileName": "CarePath_Thyroid_CBC_Dec2025.pdf",
+          "fileSize": 1150000,
+          "mimeType": "application/pdf",
+          "documentType": "Lab Report",
+          "documentDate": "2025-12-14",
+          "facility": "CarePath Diagnostics",
+          "doctor": "Dr. Sunita Rao, MD",
+          "uploadDate": "2025-12-14T11:00:00Z",
+          "status": "verified",
+          "extractedData": {
+            "documentId": "doc-priya-1",
+            "patientName": "Priya Patel",
+            "documentType": "Thyroid & Hematology Panel",
+            "documentDate": "2025-12-14",
+            "facility": "CarePath Diagnostics",
+            "doctorName": "Dr. Sunita Rao",
+            "diagnoses": [
+              "Subclinical Hypothyroidism"
+            ],
+            "plainSummaryEn": "TSH measured at 4.6 mIU/L, slightly above upper reference limit of 4.2. Free T4 and Hemoglobin (13.2 g/dL) are within healthy limits.",
+            "plainSummaryHi": "TSH 4.6 mIU/L पर मापा गया, जो 4.2 की ऊपरी सीमा से थोड़ा अधिक है। फ्री T4 और हीमोग्लोबिन (13.2 g/dL) सामान्य सीमा में हैं।",
+            "keyObservations": [
+              "TSH 4.6 mIU/L slightly elevated.",
+              "Free T4 1.15 ng/dL normal.",
+              "Hemoglobin 13.2 g/dL indicates resolved iron deficiency."
+            ],
+            "verificationNeeded": [
+              "Repeat fasting TSH in 6 months."
+            ],
+            "questionsForClinician": [
+              "Should we start low-dose Levothyroxine or simply monitor?"
+            ],
+            "uncertaintyDisclaimers": [
+              "Informational summary."
+            ],
+            "labsCount": 3,
+            "medsCount": 0
+          }
+        }
+      ],
+      "labs": [
+        {
+          "id": "lab-priya-tsh",
+          "documentId": "doc-priya-1",
+          "testName": "Thyroid Stimulating Hormone (TSH)",
+          "category": "Thyroid",
+          "valueNumeric": 4.6,
+          "valueText": "4.6",
+          "unit": "mIU/L",
+          "referenceLow": 0.4,
+          "referenceHigh": 4.2,
+          "referenceRangeText": "0.40 - 4.20 mIU/L",
+          "sourceInterpretation": "Above Reference Range",
+          "observedDate": "2025-12-14",
+          "verified": true,
+          "clinicalExplanationEn": "TSH stimulates thyroid hormone production. Mild elevation suggests early subclinical thyroid response.",
+          "clinicalExplanationHi": "TSH थायरॉयड हार्मोन के उत्पादन को उत्तेजित करता है। हल्का बढ़ाव प्रारंभिक स्थिति को दर्शाता है।",
+          "confidenceScore": 0.98
+        }
+      ],
+      "medications": [
+        {
+          "id": "med-priya-1",
+          "userId": "demo-priya",
+          "name": "Vitamin D3 Cholecalciferol",
+          "strength": "60,000 IU",
+          "dosage": "1 capsule weekly",
+          "route": "Oral",
+          "frequency": "Once a week on Sunday",
+          "instructions": "Take with milk after breakfast.",
+          "instructionsHi": "रविवार को नाश्ते के बाद दूध के साथ लें।",
+          "startDate": "2025-11-01",
+          "status": "Active",
+          "userConfirmed": true,
+          "reminders": [
+            {
+              "id": "rem-p1",
+              "time": "09:00",
+              "days": [
+                "Sun"
+              ],
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "time-priya-1",
+          "userId": "demo-priya",
+          "date": "2025-12-14",
+          "type": "lab",
+          "title": "Thyroid Function Test Analyzed",
+          "summary": "TSH slightly elevated at 4.6 mIU/L. Free T4 and CBC are normal.",
+          "summaryHi": "TSH थोड़ा बढ़ा हुआ 4.6 mIU/L। फ्री T4 और सीबीसी सामान्य।",
+          "documentId": "doc-priya-1"
+        }
+      ],
+      "wellness": [
+        {
+          "id": "wel-p1",
+          "userId": "demo-priya",
+          "date": "2026-10-12",
+          "sleepHours": 8,
+          "steps": 8200,
+          "waterGlasses": 8,
+          "restingHeartRate": 68,
+          "bloodPressureSystolic": 116,
+          "bloodPressureDiastolic": 76,
+          "notes": "Pilates session completed in the morning."
+        }
+      ],
+      "sleepEntries": [
+        {
+          "id": "sleep-p1",
+          "userId": "demo-priya",
+          "date": "2026-10-12",
+          "bedtime": "22:45",
+          "wakeTime": "06:45",
+          "durationHours": 8,
+          "quality": "excellent",
+          "notes": "Great refreshing sleep.",
+          "createdAt": "2026-10-12T07:00:00Z"
+        }
+      ],
+      "waterEntries": [
+        {
+          "id": "water-p1",
+          "userId": "demo-priya",
+          "date": "2026-10-12",
+          "amountMl": 2100,
+          "unit": "ml",
+          "targetMl": 2200,
+          "notes": "Infused lemon water.",
+          "createdAt": "2026-10-12T16:00:00Z"
+        }
+      ],
+      "mealEntries": [
+        {
+          "id": "meal-p1",
+          "userId": "demo-priya",
+          "date": "2026-10-12",
+          "mealType": "breakfast",
+          "mealName": "Avocado Toast & Chia Pudding",
+          "foods": "Sourdough toast with mashed avocado, seeds, chia pudding with berries.",
+          "calories": 390,
+          "proteinG": 12,
+          "carbsG": 48,
+          "fatG": 18,
+          "isAiEstimated": false,
+          "notes": "High omega-3 breakfast.",
+          "createdAt": "2026-10-12T08:30:00Z"
+        }
+      ],
+      "activityEntries": [
+        {
+          "id": "act-p1",
+          "userId": "demo-priya",
+          "date": "2026-10-12",
+          "activityType": "Morning Pilates & Stretching",
+          "durationMinutes": 45,
+          "steps": 4200,
+          "distanceKm": 2.8,
+          "intensity": "medium",
+          "caloriesBurned": 210,
+          "notes": "Core strength and mobility routine.",
+          "createdAt": "2026-10-12T08:00:00Z"
+        }
+      ],
+      "moodEntries": [
+        {
+          "id": "mood-p1",
+          "userId": "demo-priya",
+          "date": "2026-10-12",
+          "mood": "great",
+          "notes": "Energized and productive.",
+          "createdAt": "2026-10-12T09:00:00Z"
+        }
+      ],
+      "journalEntries": [
+        {
+          "id": "jour-p1",
+          "userId": "demo-priya",
+          "date": "2026-10-11",
+          "title": "Energy Levels Steadily High with Consistent Sleep",
+          "content": "Tracking 8 hours of sleep has eliminated afternoon sluggishness. Resting pulse is 68 bpm.",
+          "tags": [
+            "Energy",
+            "Sleep Routine",
+            "Wellness"
+          ],
+          "clinicianQuestions": [
+            "Should we repeat thyroid profile at 6-month interval?"
+          ],
+          "aiSummaryEn": "Patient reports steady daytime energy and normal pulse after maintaining 8-hour sleep consistency.",
+          "aiSummaryHi": "8 घंटे की नियमित नींद के बाद मरीज ने निरंतर ऊर्जा और सामान्य नाड़ी की सूचना दी।",
+          "appointmentPrepList": [
+            "Discuss repeat TSH date with Dr. Rao."
+          ],
+          "createdAt": "2026-10-11T18:00:00Z",
+          "updatedAt": "2026-10-11T18:00:00Z"
+        }
+      ],
+      "conversations": [],
+      "messages": [],
+      "reminders": [
+        {
+          "id": "rem-p1",
+          "userId": "demo-priya",
+          "title": "Sunday Cholecalciferol (Vitamin D3)",
+          "description": "60,000 IU capsule with milk after breakfast.",
+          "category": "medication",
+          "date": "2026-10-18",
+          "time": "09:30",
+          "recurrence": "weekly",
+          "enabled": true,
+          "completed": false,
+          "createdAt": "2026-10-01T00:00:00Z"
+        },
+        {
+          "id": "rem-p2",
+          "userId": "demo-priya",
+          "title": "Daily Hydration Target",
+          "description": "Drink 2200 ml of water throughout the day.",
+          "category": "water",
+          "date": "2026-10-12",
+          "time": "15:00",
+          "recurrence": "daily",
+          "enabled": true,
+          "completed": false,
+          "createdAt": "2026-10-01T00:00:00Z"
+        }
+      ]
+    }
+  },
+  "userCreatedAccounts": {
+    "user-devsriprasad3-gmail-com": {
+      "profile": {
+        "id": "user-devsriprasad3-gmail-com",
+        "name": "Dev Sri Prasad",
+        "email": "devsriprasad3@gmail.com",
+        "preferredLanguage": "en",
+        "allergies": [],
+        "chronicConditions": []
+      },
+      "settings": {
+        "waterTargetMl": 2500,
+        "sleepTargetHours": 8,
+        "activityTargetMinutes": 45,
+        "timeZone": "Asia/Kolkata",
+        "aiPreferredLanguage": "en",
+        "aiResponseDetail": "balanced",
+        "enableBrowserNotifications": false
+      },
+      "documents": [],
+      "labs": [],
+      "medications": [],
+      "timeline": [
+        {
+          "id": "time-1791824656905",
+          "userId": "user-devsriprasad3-gmail-com",
+          "date": "2026-10-12",
+          "type": "journal",
+          "title": "Journal: Post-workout hydration and energy check",
+          "summary": "Logged 750ml water after morning exercise. Feeling energized and steady."
+        }
+      ],
+      "wellness": [
+        {
+          "id": "wel-1791824288186",
+          "userId": "user-devsriprasad3-gmail-com",
+          "date": "2026-10-12",
+          "sleepHours": 8,
+          "steps": 0,
+          "waterGlasses": 0,
+          "notes": "Great restful deep sleep"
+        }
+      ],
+      "sleepEntries": [
+        {
+          "id": "sleep-1791824288185",
+          "userId": "user-devsriprasad3-gmail-com",
+          "date": "2026-10-12",
+          "bedtime": "22:30",
+          "wakeTime": "06:30",
+          "durationHours": 8,
+          "quality": "excellent",
+          "notes": "Great restful deep sleep",
+          "createdAt": "2026-10-12T16:58:08.185Z"
+        }
+      ],
+      "waterEntries": [
+        {
+          "id": "water-1791824541300",
+          "userId": "user-devsriprasad3-gmail-com",
+          "date": "2026-10-12",
+          "amountMl": 750,
+          "unit": "ml",
+          "targetMl": 2500,
+          "createdAt": "2026-10-12T17:02:21.300Z"
+        }
+      ],
+      "mealEntries": [],
+      "activityEntries": [],
+      "moodEntries": [],
+      "journalEntries": [
+        {
+          "id": "jour-1791824656904",
+          "userId": "user-devsriprasad3-gmail-com",
+          "date": "2026-10-12",
+          "title": "Post-workout hydration and energy check",
+          "content": "Logged 750ml water after morning exercise. Feeling energized and steady.",
+          "tags": [
+            "hydration",
+            "energy"
+          ],
+          "clinicianQuestions": [],
+          "createdAt": "2026-10-12T17:04:16.904Z",
+          "updatedAt": "2026-10-12T17:04:16.904Z"
+        }
+      ],
+      "conversations": [
+        {
+          "id": "conv-1791824648671",
+          "userId": "user-devsriprasad3-gmail-com",
+          "title": "मुझे अपने पानी के लक्ष्य को पूरा कर...",
+          "pageContext": "overview",
+          "createdAt": "2026-10-12T17:04:08.671Z",
+          "updatedAt": "2026-10-12T17:04:10.206Z"
+        },
+        {
+          "id": "conv-1791824571055",
+          "userId": "user-devsriprasad3-gmail-com",
+          "title": "मुझे अपने पानी के लक्ष्य को पूरा कर...",
+          "pageContext": "overview",
+          "createdAt": "2026-10-12T17:02:51.055Z",
+          "updatedAt": "2026-10-12T17:03:18.991Z"
+        },
+        {
+          "id": "conv-1791824555240",
+          "userId": "user-devsriprasad3-gmail-com",
+          "title": "What are 3 practical recommendation...",
+          "pageContext": "overview",
+          "createdAt": "2026-10-12T17:02:35.240Z",
+          "updatedAt": "2026-10-12T17:02:44.770Z"
+        },
+        {
+          "id": "conv-1791824524786",
+          "userId": "user-devsriprasad3-gmail-com",
+          "title": "Summarize my sleep tren• Missed Per...",
+          "pageContext": "tracking",
+          "createdAt": "2026-10-12T17:02:04.786Z",
+          "updatedAt": "2026-10-12T17:02:04.787Z"
+        }
+      ],
+      "messages": [
+        {
+          "id": "msg-1791824524787-u",
+          "conversationId": "conv-1791824524786",
+          "role": "user",
+          "content": "Summarize my sleep tren• Missed Period: Usually the first and most reliable indicator if your cycle is regular. • Breast Changes: Soreness, swelling, heaviness, or tingling, along with darkened nipples or areolas. • Fatigue: Extreme tiredness caused by a rapid increase in the hormone progesterone. • Nausea and Vomiting: Often called \"morning sickness,\" though it can happen at any time of day. • Frequent Urination: Needing to go to the bathroom more often due to hormonal shifts and increased blood flow. • Implantation Bleeding: Light brown or pinkish spotting that can happen 10 to 14 days after conception when the embryo attaches to the uterus. • Food Cravings or Aversions: Strong urges for certain foods or sudden sickness at the smell of others. • Bloating and Mild Cramping: Slowed digestion from high progesterone levels can cause a feeling of fullness or mild uterine stretching. • Mood Swings: Rapid hormonal fluctuations can trigger emotional ups and downs.ds over the past 7 days.",
+          "timestamp": "2026-10-12T17:02:04.787Z",
+          "pageContext": "tracking"
+        },
+        {
+          "id": "msg-1791824555240-u",
+          "conversationId": "conv-1791824555240",
+          "role": "user",
+          "content": "What are 3 practical recommendations to improve sleep quality based on my health vault?",
+          "timestamp": "2026-10-12T17:02:35.240Z",
+          "pageContext": "overview"
+        },
+        {
+          "id": "msg-1791824564770-m",
+          "conversationId": "conv-1791824555240",
+          "role": "model",
+          "content": "Hello Dev Sri Prasad,\n\nBased on your health vault records, your recorded sleep duration is currently **8.0 hours** (from 1 entry), your labs are within normal limits, and you are not taking any medications that might disrupt sleep. \n\nHere are **3 practical, evidence-based recommendations** tailored to your profile:\n\n---\n\n### 1. Optimize Your Hydration Timing\n* **Vault Observation:** Your water intake is currently at **750 ml of your 2,500 ml daily goal**.\n* **Recommendation:** Focus on drinking the remaining water earlier in the day and taper off fluid intake **1 to 2 hours before bed**. Being dehydrated can lead to dry mouth or muscle cramps that disrupt sleep, but drinking large volumes right before sleeping can cause frequent nighttime awakenings to use the restroom.\n\n---\n\n### 2. Track Sleep Patterns Consistently\n* **Vault Observation:** You currently have **1 recorded sleep entry**. \n* **Recommendation:** While 8 hours is an optimal duration, quality depends heavily on consistency. Continue logging your sleep for at least 7–14 days, noting what time you go to bed and wake up. This will help you identify whether your sleep cycle is regular and spot any patterns affecting how rested you feel.\n\n---\n\n### 3. Establish a Screen-Free Wind-Down Routine *(Educational Guidance)*\n* **Vault Observation:** No chronic conditions or sleep-disrupting medications are noted in your profile.\n* **Recommendation:** To maximize deep and restorative sleep, set a fixed \"wind-down\" window 30 to 60 minutes before bedtime. Avoid bright screens (phones, TVs, laptops), as blue light suppresses melatonin (the sleep hormone). Instead, engage in relaxing activities such as reading, light stretching, or listening to calming audio in a cool, dark room.\n\n---\n\n*Note: These tips are educational guidance based on your current wellness logs. If you experience ongoing sleep disturbances, fatigue, or snoring, please discuss them with your healthcare provider for clinical evaluation.*",
+          "timestamp": "2026-10-12T17:02:44.770Z",
+          "pageContext": "overview",
+          "sources": [
+            {
+              "type": "tracking",
+              "label": "Healthora Unified Overview",
+              "detail": "Clinical Profile & Wellness State"
+            }
+          ]
+        },
+        {
+          "id": "msg-1791824571056-u",
+          "conversationId": "conv-1791824571055",
+          "role": "user",
+          "content": "मुझे अपने पानी के लक्ष्य को पूरा करने के लिए सलाह दें।",
+          "timestamp": "2026-10-12T17:02:51.056Z",
+          "pageContext": "overview"
+        },
+        {
+          "id": "msg-1791824598991-u",
+          "conversationId": "conv-1791824571055",
+          "role": "user",
+          "content": "Summarize my sleep trends over the past 7 days.",
+          "timestamp": "2026-10-12T17:03:18.991Z",
+          "pageContext": "tracking"
+        },
+        {
+          "id": "msg-1791824648673-u",
+          "conversationId": "conv-1791824648671",
+          "role": "user",
+          "content": "मुझे अपने पानी के लक्ष्य को पूरा करने के लिए सलाह दें।",
+          "timestamp": "2026-10-12T17:04:08.673Z",
+          "pageContext": "overview"
+        },
+        {
+          "id": "msg-1791824650206-m",
+          "conversationId": "conv-1791824648671",
+          "role": "model",
+          "content": "नमस्ते Dev Sri Prasad,\n\nआपके हेल्थ वॉल्ट रिकॉर्ड के आधार पर:\n- **नींद:** 8 घंटे दर्ज\n- **पानी का सेवन:** 750 ml / 2500 ml लक्ष्य\n- **सक्रिय दवाएं:** कोई नहीं\n\n💧 **पानी के लक्ष्य के लिए सुझाव:**\n1. सुबह उठते ही 1-2 गिलास गुनगुना पानी पिएं।\n2. दिनभर हर 2 घंटे में पानी पीने के लिए रिमाइंडर सेट करें।\n3. भोजन से 30 मिनट पहले पानी पिएं।\n\n*नोट: यह उत्तर आपके व्यक्तिगत हेल्थ वॉल्ट रिकॉर्ड के आधार पर तैयार किया गया है।*",
+          "timestamp": "2026-10-12T17:04:10.206Z",
+          "pageContext": "overview",
+          "sources": [
+            {
+              "type": "tracking",
+              "label": "Healthora Unified Overview",
+              "detail": "Clinical Profile & Wellness State"
+            }
+          ]
+        }
+      ],
+      "reminders": [
+        {
+          "id": "rem-1791824669366",
+          "userId": "user-devsriprasad3-gmail-com",
+          "title": "Midday Hydration Break",
+          "description": "Drink 500ml water to meet daily target",
+          "category": "water",
+          "date": "2026-10-12",
+          "time": "14:00",
+          "recurrence": "daily",
+          "enabled": true,
+          "completed": false,
+          "createdAt": "2026-10-12T17:04:29.366Z"
+        }
+      ]
+    },
+    "new-user-test-123": {
+      "profile": {
+        "id": "new-user-test-123",
+        "name": "Personal Account",
+        "email": "new-user-test-123@healthora.local",
+        "preferredLanguage": "en",
+        "allergies": [],
+        "chronicConditions": []
+      },
+      "settings": {
+        "waterTargetMl": 2500,
+        "sleepTargetHours": 8,
+        "activityTargetMinutes": 45,
+        "timeZone": "Asia/Kolkata",
+        "aiPreferredLanguage": "en",
+        "aiResponseDetail": "balanced",
+        "enableBrowserNotifications": false
+      },
+      "documents": [],
+      "labs": [],
+      "medications": [],
+      "timeline": [],
+      "wellness": [],
+      "sleepEntries": [],
+      "waterEntries": [],
+      "mealEntries": [],
+      "activityEntries": [],
+      "moodEntries": [],
+      "journalEntries": [],
+      "conversations": [],
+      "messages": [],
+      "reminders": []
+    }
+  },
+  "updatedAt": "2026-10-12T17:15:23.732Z"
+}
